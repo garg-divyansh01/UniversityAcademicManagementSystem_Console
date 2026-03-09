@@ -1,0 +1,376 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\2475938\\OneDrive - Cognizant\\Desktop\\UniversityAcademicManagementSystem_Console\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{555B0FA3-28D6-46DD-53F4-226A5C639F23}|UniversityAcademicManagementSystem_Console.csproj|c:\\users\\2475938\\onedrive - cognizant\\desktop\\universityacademicmanagementsystem_console\\services\\facultyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{555B0FA3-28D6-46DD-53F4-226A5C639F23}|UniversityAcademicManagementSystem_Console.csproj|solutionrelative:services\\facultyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{555B0FA3-28D6-46DD-53F4-226A5C639F23}|UniversityAcademicManagementSystem_Console.csproj|c:\\users\\2475938\\onedrive - cognizant\\desktop\\universityacademicmanagementsystem_console\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{555B0FA3-28D6-46DD-53F4-226A5C639F23}|UniversityAcademicManagementSystem_Console.csproj|solutionrelative:services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{555B0FA3-28D6-46DD-53F4-226A5C639F23}|UniversityAcademicManagementSystem_Console.csproj|c:\\users\\2475938\\onedrive - cognizant\\desktop\\universityacademicmanagementsystem_console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{555B0FA3-28D6-46DD-53F4-226A5C639F23}|UniversityAcademicManagementSystem_Console.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{555B0FA3-28D6-46DD-53F4-226A5C639F23}|UniversityAcademicManagementSystem_Console.csproj|c:\\users\\2475938\\onedrive - cognizant\\desktop\\universityacademicmanagementsystem_console\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{555B0FA3-28D6-46DD-53F4-226A5C639F23}|UniversityAcademicManagementSystem_Console.csproj|solutionrelative:services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{555B0FA3-28D6-46DD-53F4-226A5C639F23}|UniversityAcademicManagementSystem_Console.csproj|c:\\users\\2475938\\onedrive - cognizant\\desktop\\universityacademicmanagementsystem_console\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{555B0FA3-28D6-46DD-53F4-226A5C639F23}|UniversityAcademicManagementSystem_Console.csproj|solutionrelative:repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{555B0FA3-28D6-46DD-53F4-226A5C639F23}|UniversityAcademicManagementSystem_Console.csproj|c:\\users\\2475938\\onedrive - cognizant\\desktop\\universityacademicmanagementsystem_console\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{555B0FA3-28D6-46DD-53F4-226A5C639F23}|UniversityAcademicManagementSystem_Console.csproj|solutionrelative:repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{555B0FA3-28D6-46DD-53F4-226A5C639F23}|UniversityAcademicManagementSystem_Console.csproj|c:\\users\\2475938\\onedrive - cognizant\\desktop\\universityacademicmanagementsystem_console\\repositories\\graderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{555B0FA3-28D6-46DD-53F4-226A5C639F23}|UniversityAcademicManagementSystem_Console.csproj|solutionrelative:repositories\\graderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{555B0FA3-28D6-46DD-53F4-226A5C639F23}|UniversityAcademicManagementSystem_Console.csproj|c:\\users\\2475938\\onedrive - cognizant\\desktop\\universityacademicmanagementsystem_console\\repositories\\enrollmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{555B0FA3-28D6-46DD-53F4-226A5C639F23}|UniversityAcademicManagementSystem_Console.csproj|solutionrelative:repositories\\enrollmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{555B0FA3-28D6-46DD-53F4-226A5C639F23}|UniversityAcademicManagementSystem_Console.csproj|c:\\users\\2475938\\onedrive - cognizant\\desktop\\universityacademicmanagementsystem_console\\repositories\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{555B0FA3-28D6-46DD-53F4-226A5C639F23}|UniversityAcademicManagementSystem_Console.csproj|solutionrelative:repositories\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{555B0FA3-28D6-46DD-53F4-226A5C639F23}|UniversityAcademicManagementSystem_Console.csproj|c:\\users\\2475938\\onedrive - cognizant\\desktop\\universityacademicmanagementsystem_console\\repositories\\academicrecordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{555B0FA3-28D6-46DD-53F4-226A5C639F23}|UniversityAcademicManagementSystem_Console.csproj|solutionrelative:repositories\\academicrecordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{555B0FA3-28D6-46DD-53F4-226A5C639F23}|UniversityAcademicManagementSystem_Console.csproj|c:\\users\\2475938\\onedrive - cognizant\\desktop\\universityacademicmanagementsystem_console\\services\\registrarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{555B0FA3-28D6-46DD-53F4-226A5C639F23}|UniversityAcademicManagementSystem_Console.csproj|solutionrelative:services\\registrarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{555B0FA3-28D6-46DD-53F4-226A5C639F23}|UniversityAcademicManagementSystem_Console.csproj|c:\\users\\2475938\\onedrive - cognizant\\desktop\\universityacademicmanagementsystem_console\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{555B0FA3-28D6-46DD-53F4-226A5C639F23}|UniversityAcademicManagementSystem_Console.csproj|solutionrelative:models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{555B0FA3-28D6-46DD-53F4-226A5C639F23}|UniversityAcademicManagementSystem_Console.csproj|c:\\users\\2475938\\onedrive - cognizant\\desktop\\universityacademicmanagementsystem_console\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{555B0FA3-28D6-46DD-53F4-226A5C639F23}|UniversityAcademicManagementSystem_Console.csproj|solutionrelative:models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{555B0FA3-28D6-46DD-53F4-226A5C639F23}|UniversityAcademicManagementSystem_Console.csproj|c:\\users\\2475938\\onedrive - cognizant\\desktop\\universityacademicmanagementsystem_console\\models\\grade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{555B0FA3-28D6-46DD-53F4-226A5C639F23}|UniversityAcademicManagementSystem_Console.csproj|solutionrelative:models\\grade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{555B0FA3-28D6-46DD-53F4-226A5C639F23}|UniversityAcademicManagementSystem_Console.csproj|c:\\users\\2475938\\onedrive - cognizant\\desktop\\universityacademicmanagementsystem_console\\models\\enrollmentstatus.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{555B0FA3-28D6-46DD-53F4-226A5C639F23}|UniversityAcademicManagementSystem_Console.csproj|solutionrelative:models\\enrollmentstatus.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{555B0FA3-28D6-46DD-53F4-226A5C639F23}|UniversityAcademicManagementSystem_Console.csproj|c:\\users\\2475938\\onedrive - cognizant\\desktop\\universityacademicmanagementsystem_console\\models\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{555B0FA3-28D6-46DD-53F4-226A5C639F23}|UniversityAcademicManagementSystem_Console.csproj|solutionrelative:models\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{555B0FA3-28D6-46DD-53F4-226A5C639F23}|UniversityAcademicManagementSystem_Console.csproj|c:\\users\\2475938\\onedrive - cognizant\\desktop\\universityacademicmanagementsystem_console\\models\\academicrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{555B0FA3-28D6-46DD-53F4-226A5C639F23}|UniversityAcademicManagementSystem_Console.csproj|solutionrelative:models\\academicrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{555B0FA3-28D6-46DD-53F4-226A5C639F23}|UniversityAcademicManagementSystem_Console.csproj|c:\\users\\2475938\\onedrive - cognizant\\desktop\\universityacademicmanagementsystem_console\\data\\universitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{555B0FA3-28D6-46DD-53F4-226A5C639F23}|UniversityAcademicManagementSystem_Console.csproj|solutionrelative:data\\universitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{555B0FA3-28D6-46DD-53F4-226A5C639F23}|UniversityAcademicManagementSystem_Console.csproj|c:\\users\\2475938\\onedrive - cognizant\\desktop\\universityacademicmanagementsystem_console\\migrations\\20260307102327_universitydbconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{555B0FA3-28D6-46DD-53F4-226A5C639F23}|UniversityAcademicManagementSystem_Console.csproj|solutionrelative:migrations\\20260307102327_universitydbconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{555B0FA3-28D6-46DD-53F4-226A5C639F23}|UniversityAcademicManagementSystem_Console.csproj|c:\\users\\2475938\\onedrive - cognizant\\desktop\\universityacademicmanagementsystem_console\\migrations\\universitydbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{555B0FA3-28D6-46DD-53F4-226A5C639F23}|UniversityAcademicManagementSystem_Console.csproj|solutionrelative:migrations\\universitydbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{555B0FA3-28D6-46DD-53F4-226A5C639F23}|UniversityAcademicManagementSystem_Console.csproj|c:\\users\\2475938\\onedrive - cognizant\\desktop\\universityacademicmanagementsystem_console\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{555B0FA3-28D6-46DD-53F4-226A5C639F23}|UniversityAcademicManagementSystem_Console.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "C:\\Users\\2475938\\OneDrive - Cognizant\\Desktop\\UniversityAcademicManagementSystem_Console\\Services\\StudentService.cs",
+              "RelativeDocumentMoniker": "Services\\StudentService.cs",
+              "ToolTip": "C:\\Users\\2475938\\OneDrive - Cognizant\\Desktop\\UniversityAcademicManagementSystem_Console\\Services\\StudentService.cs",
+              "RelativeToolTip": "Services\\StudentService.cs",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAxwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T17:17:17.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\2475938\\OneDrive - Cognizant\\Desktop\\UniversityAcademicManagementSystem_Console\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\2475938\\OneDrive - Cognizant\\Desktop\\UniversityAcademicManagementSystem_Console\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAQwDEAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T09:06:18.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\2475938\\OneDrive - Cognizant\\Desktop\\UniversityAcademicManagementSystem_Console\\Repositories\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\2475938\\OneDrive - Cognizant\\Desktop\\UniversityAcademicManagementSystem_Console\\Repositories\\IGenericRepository.cs",
+              "RelativeToolTip": "Repositories\\IGenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T10:38:13.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminService.cs",
+              "DocumentMoniker": "C:\\Users\\2475938\\OneDrive - Cognizant\\Desktop\\UniversityAcademicManagementSystem_Console\\Services\\AdminService.cs",
+              "RelativeDocumentMoniker": "Services\\AdminService.cs",
+              "ToolTip": "C:\\Users\\2475938\\OneDrive - Cognizant\\Desktop\\UniversityAcademicManagementSystem_Console\\Services\\AdminService.cs",
+              "RelativeToolTip": "Services\\AdminService.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAkwBwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-08T09:00:49.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FacultyService.cs",
+              "DocumentMoniker": "C:\\Users\\2475938\\OneDrive - Cognizant\\Desktop\\UniversityAcademicManagementSystem_Console\\Services\\FacultyService.cs",
+              "RelativeDocumentMoniker": "Services\\FacultyService.cs",
+              "ToolTip": "C:\\Users\\2475938\\OneDrive - Cognizant\\Desktop\\UniversityAcademicManagementSystem_Console\\Services\\FacultyService.cs",
+              "RelativeToolTip": "Services\\FacultyService.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAkwGYAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T17:21:22.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AcademicRecordRepository.cs",
+              "DocumentMoniker": "C:\\Users\\2475938\\OneDrive - Cognizant\\Desktop\\UniversityAcademicManagementSystem_Console\\Repositories\\AcademicRecordRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\AcademicRecordRepository.cs",
+              "ToolTip": "C:\\Users\\2475938\\OneDrive - Cognizant\\Desktop\\UniversityAcademicManagementSystem_Console\\Repositories\\AcademicRecordRepository.cs",
+              "RelativeToolTip": "Repositories\\AcademicRecordRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwEUAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T16:57:13.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StudentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\2475938\\OneDrive - Cognizant\\Desktop\\UniversityAcademicManagementSystem_Console\\Repositories\\StudentRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\StudentRepository.cs",
+              "ToolTip": "C:\\Users\\2475938\\OneDrive - Cognizant\\Desktop\\UniversityAcademicManagementSystem_Console\\Repositories\\StudentRepository.cs",
+              "RelativeToolTip": "Repositories\\StudentRepository.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAkwCYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T16:51:00.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GradeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\2475938\\OneDrive - Cognizant\\Desktop\\UniversityAcademicManagementSystem_Console\\Repositories\\GradeRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\GradeRepository.cs",
+              "ToolTip": "C:\\Users\\2475938\\OneDrive - Cognizant\\Desktop\\UniversityAcademicManagementSystem_Console\\Repositories\\GradeRepository.cs",
+              "RelativeToolTip": "Repositories\\GradeRepository.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAkwEUAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T16:56:16.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EnrollmentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\2475938\\OneDrive - Cognizant\\Desktop\\UniversityAcademicManagementSystem_Console\\Repositories\\EnrollmentRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\EnrollmentRepository.cs",
+              "ToolTip": "C:\\Users\\2475938\\OneDrive - Cognizant\\Desktop\\UniversityAcademicManagementSystem_Console\\Repositories\\EnrollmentRepository.cs",
+              "RelativeToolTip": "Repositories\\EnrollmentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T16:55:07.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CourseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\2475938\\OneDrive - Cognizant\\Desktop\\UniversityAcademicManagementSystem_Console\\Repositories\\CourseRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\CourseRepository.cs",
+              "ToolTip": "C:\\Users\\2475938\\OneDrive - Cognizant\\Desktop\\UniversityAcademicManagementSystem_Console\\Repositories\\CourseRepository.cs",
+              "RelativeToolTip": "Repositories\\CourseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T16:53:48.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RegistrarService.cs",
+              "DocumentMoniker": "C:\\Users\\2475938\\OneDrive - Cognizant\\Desktop\\UniversityAcademicManagementSystem_Console\\Services\\RegistrarService.cs",
+              "RelativeDocumentMoniker": "Services\\RegistrarService.cs",
+              "ToolTip": "C:\\Users\\2475938\\OneDrive - Cognizant\\Desktop\\UniversityAcademicManagementSystem_Console\\Services\\RegistrarService.cs",
+              "RelativeToolTip": "Services\\RegistrarService.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAswBMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-08T08:53:58.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Users\\2475938\\OneDrive - Cognizant\\Desktop\\UniversityAcademicManagementSystem_Console\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "Models\\Course.cs",
+              "ToolTip": "C:\\Users\\2475938\\OneDrive - Cognizant\\Desktop\\UniversityAcademicManagementSystem_Console\\Models\\Course.cs",
+              "RelativeToolTip": "Models\\Course.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T09:09:53.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\2475938\\OneDrive - Cognizant\\Desktop\\UniversityAcademicManagementSystem_Console\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "Models\\Student.cs",
+              "ToolTip": "C:\\Users\\2475938\\OneDrive - Cognizant\\Desktop\\UniversityAcademicManagementSystem_Console\\Models\\Student.cs",
+              "RelativeToolTip": "Models\\Student.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T09:08:17.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Grade.cs",
+              "DocumentMoniker": "C:\\Users\\2475938\\OneDrive - Cognizant\\Desktop\\UniversityAcademicManagementSystem_Console\\Models\\Grade.cs",
+              "RelativeDocumentMoniker": "Models\\Grade.cs",
+              "ToolTip": "C:\\Users\\2475938\\OneDrive - Cognizant\\Desktop\\UniversityAcademicManagementSystem_Console\\Models\\Grade.cs",
+              "RelativeToolTip": "Models\\Grade.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T09:13:19.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EnrollmentStatus.cs",
+              "DocumentMoniker": "C:\\Users\\2475938\\OneDrive - Cognizant\\Desktop\\UniversityAcademicManagementSystem_Console\\Models\\EnrollmentStatus.cs",
+              "RelativeDocumentMoniker": "Models\\EnrollmentStatus.cs",
+              "ToolTip": "C:\\Users\\2475938\\OneDrive - Cognizant\\Desktop\\UniversityAcademicManagementSystem_Console\\Models\\EnrollmentStatus.cs",
+              "RelativeToolTip": "Models\\EnrollmentStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T10:07:53.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Enrollment.cs",
+              "DocumentMoniker": "C:\\Users\\2475938\\OneDrive - Cognizant\\Desktop\\UniversityAcademicManagementSystem_Console\\Models\\Enrollment.cs",
+              "RelativeDocumentMoniker": "Models\\Enrollment.cs",
+              "ToolTip": "C:\\Users\\2475938\\OneDrive - Cognizant\\Desktop\\UniversityAcademicManagementSystem_Console\\Models\\Enrollment.cs",
+              "RelativeToolTip": "Models\\Enrollment.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T09:12:04.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AcademicRecord.cs",
+              "DocumentMoniker": "C:\\Users\\2475938\\OneDrive - Cognizant\\Desktop\\UniversityAcademicManagementSystem_Console\\Models\\AcademicRecord.cs",
+              "RelativeDocumentMoniker": "Models\\AcademicRecord.cs",
+              "ToolTip": "C:\\Users\\2475938\\OneDrive - Cognizant\\Desktop\\UniversityAcademicManagementSystem_Console\\Models\\AcademicRecord.cs",
+              "RelativeToolTip": "Models\\AcademicRecord.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABUAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T09:13:51.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20260307102327_UniversityDbConsole.cs",
+              "DocumentMoniker": "C:\\Users\\2475938\\OneDrive - Cognizant\\Desktop\\UniversityAcademicManagementSystem_Console\\Migrations\\20260307102327_UniversityDbConsole.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260307102327_UniversityDbConsole.cs",
+              "ToolTip": "C:\\Users\\2475938\\OneDrive - Cognizant\\Desktop\\UniversityAcademicManagementSystem_Console\\Migrations\\20260307102327_UniversityDbConsole.cs",
+              "RelativeToolTip": "Migrations\\20260307102327_UniversityDbConsole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T10:23:27.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UniversityDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\2475938\\OneDrive - Cognizant\\Desktop\\UniversityAcademicManagementSystem_Console\\Data\\UniversityDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\UniversityDbContext.cs",
+              "ToolTip": "C:\\Users\\2475938\\OneDrive - Cognizant\\Desktop\\UniversityAcademicManagementSystem_Console\\Data\\UniversityDbContext.cs",
+              "RelativeToolTip": "Data\\UniversityDbContext.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwBYAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T09:29:23.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UniversityDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\2475938\\OneDrive - Cognizant\\Desktop\\UniversityAcademicManagementSystem_Console\\Migrations\\UniversityDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\UniversityDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\2475938\\OneDrive - Cognizant\\Desktop\\UniversityAcademicManagementSystem_Console\\Migrations\\UniversityDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\UniversityDbContextModelSnapshot.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T10:25:22.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\2475938\\OneDrive - Cognizant\\Desktop\\UniversityAcademicManagementSystem_Console\\App.config",
+              "RelativeDocumentMoniker": "App.config",
+              "ToolTip": "C:\\Users\\2475938\\OneDrive - Cognizant\\Desktop\\UniversityAcademicManagementSystem_Console\\App.config",
+              "RelativeToolTip": "App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-03-06T09:26:45.087Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
