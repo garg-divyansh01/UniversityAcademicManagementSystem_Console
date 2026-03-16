@@ -40,5 +40,10 @@ namespace UniversityAcademicManagementSystem_Console.Repositories.Implementation
         {
             return _context.Grades.Where(g => g.CourseId == courseId).ToList();
         }
+
+        public Grade GetGradeById(int gid)
+        {
+            return _context.Grades.FirstOrDefault(g => g.GradeId == gid);
+        }
     }
 }

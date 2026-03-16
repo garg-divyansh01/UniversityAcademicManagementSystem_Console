@@ -43,5 +43,24 @@ namespace UniversityAcademicManagementSystem_Console.Repositories.Implementation
                 _ => throw new ArgumentException($"Invalid grade value: {grade}")
             };
         }
+
+        public void AddAcademicRecord(AcademicRecord record)
+        {
+               _context.AcademicRecords.Add(record);
+               _context.SaveChanges();
+         
+        }
+
+        public void UpdateAcademicRecord(int studentId, int courseId, string newGrade)
+        {
+            var record = _context.AcademicRecords
+            .FirstOrDefault(r => r.StudentId == studentId && r.CourseId == courseId);
+
+            if (record != null)
+            {
+                record.Grade = newGrade;
+                _context.SaveChanges();
+            }
+        }
     }
 }

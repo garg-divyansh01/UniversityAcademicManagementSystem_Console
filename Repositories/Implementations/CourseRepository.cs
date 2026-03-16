@@ -19,7 +19,7 @@ namespace UniversityAcademicManagementSystem_Console.Repositories.Implementation
         public void AddCourse(Course course)
         {
             if (string.IsNullOrWhiteSpace(course.CourseName))
-                throw new ArgumentException("Course name cannot be empty.");
+                throw new ArgumentException("Invalid Input");
             if (course.Credits <= 0)
                 throw new ArgumentException("Credits must be greater than zero.");
 

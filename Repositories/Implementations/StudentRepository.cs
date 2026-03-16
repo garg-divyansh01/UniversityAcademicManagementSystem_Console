@@ -17,8 +17,8 @@ namespace UniversityAcademicManagementSystem_Console.Repositories.Implementation
 
         public void RegisterStudent(Student student)
         {
-            if (string.IsNullOrWhiteSpace(student.Name) || string.IsNullOrWhiteSpace(student.Email))
-                throw new ArgumentException("Name and Email cannot be empty.");
+            if (string.IsNullOrWhiteSpace(student.Name) || string.IsNullOrWhiteSpace(student.Email) || string.IsNullOrWhiteSpace(student.Department) || string.IsNullOrWhiteSpace(student.ContactNumber) || student.EnrollmentYear == 0)
+                throw new ArgumentException("Invalid Input");
 
             var existing = _context.Students.FirstOrDefault(s => s.Email == student.Email);
             if (existing != null)
@@ -34,8 +34,8 @@ namespace UniversityAcademicManagementSystem_Console.Repositories.Implementation
             if (existing == null)
                 throw new KeyNotFoundException($"Student with ID {student.StudentId} not found.");
 
-            if (string.IsNullOrWhiteSpace(student.Name))
-                throw new ArgumentException("Name cannot be empty.");
+            if (string.IsNullOrWhiteSpace(student.Name) || string.IsNullOrWhiteSpace(student.Email) || string.IsNullOrWhiteSpace(student.Department) || string.IsNullOrWhiteSpace(student.ContactNumber) || student.EnrollmentYear == 0)
+                throw new ArgumentException("Invalid Input");
 
             existing.Name = student.Name;
             existing.Email = student.Email;
