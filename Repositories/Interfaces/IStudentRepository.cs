@@ -7,5 +7,6 @@ namespace UniversityAcademicManagementSystem_Console.Repositories.Interfaces
         Student GetStudentDetails(int id);
         void RegisterStudent(Student student);
         void UpdateProfile(Student student);
+        public IEnumerable<Student> GetAllStudents();
     }
 }

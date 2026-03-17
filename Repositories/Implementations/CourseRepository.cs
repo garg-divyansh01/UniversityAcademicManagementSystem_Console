@@ -56,5 +56,10 @@ namespace UniversityAcademicManagementSystem_Console.Repositories.Implementation
 
             return _context.Courses.Where(c => c.SemesterOffered == semester).ToList();
         }
+
+        public IEnumerable<Course> GetAllCourses()
+        {
+            return _context.Courses.ToList();
+        }
     }
 }

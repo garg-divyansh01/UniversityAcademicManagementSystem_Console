@@ -40,18 +40,18 @@ class Program
 
             switch (choice)
             {
-                case "1": StudentMenu(studentRepo, enrollmentRepo, transcriptRepo); break;
-                case "2": FacultyMenu(gradeRepo, transcriptRepo, courseRepo); break;
+                case "1": StudentMenu(studentRepo, courseRepo, enrollmentRepo, transcriptRepo); break;
+                case "2": FacultyMenu(studentRepo, gradeRepo, transcriptRepo, courseRepo); break;
                 case "3": RegistrarMenu(courseRepo); break;
                 case "4": AdminMenu(studentRepo, courseRepo, enrollmentRepo, gradeRepo, transcriptRepo); break;
-                case "0": exit = true; break;
+                case "0": Console.WriteLine("Thank You!"); exit = true; break;
                 default: Console.WriteLine("Invalid choice."); break;
             }
         }
     }
 
     // --- STUDENT MENU  ---
-    static void StudentMenu(IStudentRepository studentRepo, IEnrollmentRepository enrollmentRepo, ITranscriptRepository transcriptRepo)
+    static void StudentMenu(IStudentRepository studentRepo, ICourseRepository courseRepo, IEnrollmentRepository enrollmentRepo, ITranscriptRepository transcriptRepo)
     {
         Console.WriteLine("\n--- Student Menu ---");
         Console.WriteLine("1. Register Student");
@@ -61,8 +61,10 @@ class Program
         Console.WriteLine("5. Drop Course");
         Console.WriteLine("6. View Enrolled Courses");
         Console.WriteLine("7. View Transcript");
+        Console.WriteLine("0. Exit");
         Console.Write("Choice: ");
         var choice = Console.ReadLine();
+        if (choice == "0") return;
 
         try
         {
@@ -74,8 +76,16 @@ class Program
                     Console.Write("Department: "); var dept = Console.ReadLine().ToUpper();
                     Console.Write("Contact: "); var contact = Console.ReadLine();
                     Console.Write("Year: "); var year = int.Parse(Console.ReadLine());
-                    studentRepo.RegisterStudent(new Student { Name = name, Email = email, Department = dept, ContactNumber = contact, EnrollmentYear = year });
-                    Console.WriteLine("Success: Student registered.");
+                    var newStudent = new Student
+                    {
+                        Name = name,
+                        Email = email,
+                        Department = dept,
+                        ContactNumber = contact,
+                        EnrollmentYear = year
+                    };
+                    studentRepo.RegisterStudent(newStudent);
+                    Console.WriteLine($"Success: Student registered with Student Id: {newStudent.StudentId}.");
                     break;
                 case "2":
                     Console.Write("Student ID: "); var id = int.Parse(Console.ReadLine());
@@ -87,7 +97,7 @@ class Program
                         Console.Write("New Department: "); existing.Department = Console.ReadLine().ToUpper();
                         Console.Write("New Contact: "); existing.ContactNumber = Console.ReadLine();
                         studentRepo.UpdateProfile(existing);
-                        Console.WriteLine("Success: Profile updated.");
+                        Console.WriteLine($"Success: Profile updated with Student Id: {existing.StudentId}.");
                     }
                     else { Console.WriteLine("Error: Student not found."); }
                     break;
@@ -100,6 +110,12 @@ class Program
                     break;
                 case "4":
                     Console.Write("Student ID: "); var stid = int.Parse(Console.ReadLine());
+                    Console.WriteLine("List All Courses: ");
+                    IEnumerable<Course> courseList = courseRepo.GetAllCourses();
+                    foreach (Course c in courseList)
+                    {
+                        Console.WriteLine($"Course Id: {c.CourseId}, Name: {c.CourseName}");
+                    }
                     Console.Write("Course ID: "); var cid = int.Parse(Console.ReadLine());
                     enrollmentRepo.EnrollCourse(stid, cid);
                     Console.WriteLine("Success: Enrolled in course.");
@@ -127,36 +143,51 @@ class Program
     }
 
     // --- FACULTY MENU ---
-    static void FacultyMenu(IGradeRepository gradeRepo, ITranscriptRepository transcriptRepo, ICourseRepository courseRepo)
+    static void FacultyMenu(IStudentRepository studentRepo, IGradeRepository gradeRepo, ITranscriptRepository transcriptRepo, ICourseRepository courseRepo)
     {
         Console.WriteLine("\n--- Faculty Menu ---");
         Console.WriteLine("1. Submit Grade");
         Console.WriteLine("2. Update Grade");
         Console.WriteLine("3. View Grades by Course");
+        Console.WriteLine("0. Exit");
         Console.Write("Choice: ");
         var choice = Console.ReadLine();
+        if (choice == "0") return;
 
         try
         {
             switch (choice)
             {
                 case "1":
+                    Console.WriteLine("List All Students: ");
+                    IEnumerable<Student> list = studentRepo.GetAllStudents();
+                    foreach(Student s in list)
+                    {
+                        Console.WriteLine($"Student Id: {s.StudentId}, Name: {s.Name}");
+                    }
                     Console.Write("Student ID: "); int sid = int.Parse(Console.ReadLine());
+                    Console.WriteLine("List All Courses: ");
+                    IEnumerable<Course> courseList = courseRepo.GetAllCourses();
+                    foreach(Course c in courseList)
+                    {
+                        Console.WriteLine($"Course Id: {c.CourseId}, Name: {c.CourseName}");
+                    }
                     Console.Write("Course ID: "); int cid = int.Parse(Console.ReadLine());
-                    Console.Write("Grade (A/B/C): "); string gradeVal = Console.ReadLine().ToUpper();
+                    Console.Write("Grade (A/B/C/D/F): "); string gradeVal = Console.ReadLine().ToUpper();
                     Console.Write("Remarks: "); string rem = Console.ReadLine();
                     var courseInfo = courseRepo.GetCourseDetails(cid);
 
                     if (courseInfo != null)
                     {
-                    
-                        gradeRepo.SubmitGrade(new Grade
+
+                        var newGrade = new Grade
                         {
                             StudentId = sid,
                             CourseId = cid,
                             GradeValue = gradeVal,
                             Remarks = rem
-                        });
+                        };
+                        gradeRepo.SubmitGrade(newGrade);
 
                         transcriptRepo.AddAcademicRecord(new AcademicRecord
                         {
@@ -166,7 +197,7 @@ class Program
                             Semester = courseInfo.SemesterOffered
                         });
 
-                        Console.WriteLine("Success: Grade submitted and Academic Record synchronized.");
+                        Console.WriteLine($"Success: Grade submitted with Grade Id: {newGrade.GradeId} and Academic Record synchronized.");
                     }
                     else
                     {
@@ -220,8 +251,11 @@ class Program
         Console.WriteLine("2. Update Course");
         Console.WriteLine("3. View Course Details");
         Console.WriteLine("4. List Courses by Semester");
+        Console.WriteLine("0. Exit");
         Console.Write("Choice: ");
+
         var choice = Console.ReadLine();
+        if (choice == "0") return;
 
         try
         {
@@ -232,8 +266,15 @@ class Program
                     Console.Write("Credits: "); var credits = int.Parse(Console.ReadLine());
                     Console.Write("Department: "); var dept = Console.ReadLine().ToUpper();
                     Console.Write("Semester: "); var semOffered = Console.ReadLine().ToUpper();
-                    courseRepo.AddCourse(new Course { CourseName = cname, Credits = credits, Department = dept, SemesterOffered = semOffered });
-                    Console.WriteLine("Success: Course added.");
+                    var newCourse = new Course
+                    {
+                        CourseName = cname,
+                        Credits = credits,
+                        Department = dept,
+                        SemesterOffered = semOffered
+                    };
+                    courseRepo.AddCourse(newCourse);
+                    Console.WriteLine($"Success: Course added with Course Id: {newCourse.CourseId}.");
                     break;
                 case "2":
                     Console.Write("Course ID to update: "); var cid = int.Parse(Console.ReadLine());
@@ -273,5 +314,47 @@ class Program
         Console.WriteLine("\n--- Admin Menu ---");
         Console.WriteLine("Admins can access all Student, Course, Enrollment, Grade, and Transcript operations.");
         Console.WriteLine("For demo, try StudentMenu, FacultyMenu, or RegistrarMenu again.");
+
+        while (true)
+        {
+            Console.WriteLine("\n--- Admin Menu ---");
+            Console.WriteLine("1. View All Students");
+            Console.WriteLine("2. View All Courses");
+            Console.WriteLine("0. Go Back");
+            Console.Write("Choice: ");
+            var choice = Console.ReadLine();
+
+            if (choice == "0") break;
+
+            switch (choice)
+            {
+                case "1":
+                    Console.WriteLine("\n--- Registered Students ---");
+                    var students = studentRepo.GetAllStudents();
+                    if (!students.Any()) Console.WriteLine("No students found.");
+
+                    foreach (var s in students)
+                    {
+                        Console.WriteLine($"ID: {s.StudentId} | Name: {s.Name} | Email: {s.Email} | Dept: {s.Department}");
+                    }
+                    break;
+
+                case "2":
+                    Console.WriteLine("\n--- Available Courses ---");
+                    var courses = courseRepo.GetAllCourses();
+                    if (!courses.Any()) Console.WriteLine("No courses found.");
+
+                    foreach (var c in courses)
+                    {
+                        Console.WriteLine($"ID: {c.CourseId} | Name: {c.CourseName} | Credits: {c.Credits} | Dept: {c.Department}");
+                    }
+                    break;
+
+                default:
+                    Console.WriteLine("Invalid choice.");
+                    break;
+            }
+        }
+
     }
 }

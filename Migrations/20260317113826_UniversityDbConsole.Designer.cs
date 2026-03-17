@@ -11,7 +11,7 @@ using UniversityAcademicManagementSystem_Console.Data;
 namespace UniversityAcademicManagementSystem_Console.Migrations
 {
     [DbContext(typeof(UniversityDbContext))]
-    [Migration("20260307102327_UniversityDbConsole")]
+    [Migration("20260317113826_UniversityDbConsole")]
     partial class UniversityDbConsole
     {
         /// <inheritdoc />

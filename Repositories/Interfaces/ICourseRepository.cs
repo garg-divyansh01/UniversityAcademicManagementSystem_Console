@@ -8,5 +8,6 @@ namespace UniversityAcademicManagementSystem_Console.Repositories.Interfaces
         Course GetCourseDetails(int id);
         IEnumerable<Course> ListCoursesBySemester(string semester);
         void UpdateCourse(Course course);
+        public IEnumerable<Course> GetAllCourses();
     }
 }
